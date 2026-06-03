@@ -151,6 +151,25 @@ footer {
     color: var(--white);
 }
 
+.instagram-link {
+    color: var(--white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.instagram-link:hover {
+    color: var(--primary);
+    transform: scale(1.15);
+}
+
+.instagram-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
 .footer-info {
     color: #d0c9c5;
     margin-bottom: 30px;
